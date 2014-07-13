@@ -1,0 +1,13 @@
+body{
+    position: relative;
+}
+.p_left{
+    width: 10%;
+    position: absolute;
+    border-right: 1px solid #000000;
+}
+.p_right{
+    width: 88%;
+    position: absolute;
+    left: 11%;
+}

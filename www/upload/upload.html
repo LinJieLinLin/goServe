@@ -1,0 +1,15 @@
+<form id="upLoadPic"action="/uploadDemo" method="post" >
+    <div ng-show="false">
+        类型:<input  id="adType" name="adType" type="text"value="" readonly><br/> <br/>
+        名称:<input  id="adPosName" name="adPosName" type="text" value=""readonly> <br/> <br/>
+    </div>
+    <div>
+        <input   id="choosePic"  name="File" type="file" ><br>
+        参数<input type="text" name="data" id="data">
+    </div>
+</form>
+<div>
+    <br>
+    <button onclick="upload('choosePic','upLoadPic')" class="btn btn-success">保存</button>
+    <a class="btn btn-success" ng-href="{{upImgUrl}}">查看</a>
+</div>

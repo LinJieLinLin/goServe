@@ -832,6 +832,10 @@
             editor = instances[id] = new UE.ui.Editor(opt);
             editor.render(id);
         }
+        //lin change
+//         editor = instances[id] = new UE.ui.Editor(opt);
+//         editor.render(id);
+        //lin change
         return editor;
     };
 
